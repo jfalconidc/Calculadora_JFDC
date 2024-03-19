@@ -1,0 +1,140 @@
+body {
+  background-color: limegreen;
+  width: 1200px;
+  height: 800px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.calc {
+  width: 600px;
+  height: 600px;
+  display: grid;
+  grid-template:
+    "pantalla pantalla pantalla pantalla" 125px
+    "mas menos por entre" 100px
+    "siete ocho nueve igual" 100px
+    "cuatro cinco seis igual" 100px
+    "uno dos tres igual" 100px
+    "cero punto ac igual" 100px/150px 150px 150px 150px;
+  grid-gap: 10px;
+  margin: auto;
+}
+
+.key_operator {
+  background: #0c59ef;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+  font-size: 60px;
+  border: none;
+}
+
+.key_number {
+  background: #8d8787;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+  font-size: 60px;
+  border: none;
+}
+
+.key_equal {
+  background: #E44B4B;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+  font-size: 60px;
+  border: none;
+}
+
+#pantalla {
+  background: #1e1e1e;
+  color: white;
+  grid-area: pantalla;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+  font-size: 60px;
+  padding-top: 25px;
+  padding-left: 5px;
+  border: none;
+}
+
+#mas {
+  grid-area: mas;
+}
+
+#menos {
+  grid-area: menos;
+}
+
+#por {
+  grid-area: por;
+  padding-top: 20px;
+}
+
+#entre {
+  grid-area: entre;
+}
+
+#nueve {
+  grid-area: nueve;
+}
+
+#ocho {
+  grid-area: ocho;
+}
+
+#siete {
+  grid-area: siete;
+}
+
+#seis {
+  grid-area: seis;
+}
+
+#cinco {
+  grid-area: cinco;
+}
+
+#cuatro {
+  grid-area: cuatro;
+}
+
+#tres {
+  grid-area: tres;
+}
+
+#dos {
+  grid-area: dos;
+}
+
+#uno {
+  grid-area: uno;
+}
+
+#cero {
+  grid-area: cero;
+}
+
+#punto {
+  grid-area: punto;
+}
+
+#ac {
+  grid-area: ac;
+}
+
+#igual {
+  grid-area: igual;
+}

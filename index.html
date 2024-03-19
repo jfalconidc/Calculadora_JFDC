@@ -3,30 +3,32 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
     <title>Calculadora_JFDC</title>
   </head>
   <body>
-    <div>
-      <div class="display"></div>
-      <div class="keys">
-        <button class="key_operator">+</button>
-        <button class="key_operator">-</button>
-        <button class="key_operator">*</button>
-        <button class="key_operator">/</button>
-        <button>9</button>
-        <button>8</button>
-        <button>7</button>
-        <button>6</button>
-        <button>5</button>
-        <button>4</button>
-        <button>3</button>
-        <button>2</button>
-        <button>1</button>
-        <button>0</button>
-        <button>.</button>
-        <button>AC</button>
-        <button class="key_equal">=</button>
-      </div>
+    <div class="calc">
+        <textarea name="" id="pantalla" cols="4" rows="2">0</textarea>
+        <button id="mas" class="key_operator">+</button>
+        <button id="menos" class="key_operator">-</button>
+        <button id="por" class="key_operator">*</button>
+        <button id="entre" class="key_operator">/</button>
+        <button id="nueve" class="key_number">9</button>
+        <button id="ocho" class="key_number">8</button>
+        <button id="siete" class="key_number">7</button>
+        <button id="seis" class="key_number">6</button>
+        <button id="cinco" class="key_number">5</button>
+        <button id="cuatro" class="key_number">4</button>
+        <button id="tres" class="key_number">3</button>
+        <button id="dos" class="key_number">2</button>
+        <button id="uno" class="key_number">1</button>
+        <button id="cero" class="key_number">0</button>
+        <button id="punto" class="key_number">.</button>
+        <button id="ac" class="key_number">AC</button>
+        <button id="igual" class="key_equal">=</button>
     </div>
   </body>
 </html>
